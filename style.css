@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {background:#4B4B4B url(images/bg.png) fixed; font-family:Georgia, Geneva, sans-serif; font-size:12px; color:#000; margin:0px; }
+
+#main {margin:5px auto; width:1280px;}
+
+#months {width:318px; height:180px; float:left; border:black 1px solid; overflow:hidden; font-size:0.8;}
+#months a:visited {color: #06f;}
+
+h1.year {font-size:36px; text-align:center; background:#F2BB68; margin:0px; border:black 1px solid;}
+h1.year a:visited {color: #06c;}
+h1.head {font-size:18px; text-align:center; margin:0px;}
+
+#letterdays {width:45px; float:left; text-align:center; margin-top:8px;}
+#letters {width:45px; float:left; text-align:center; margin-top:8px; text-decoration:none; font-weight:bold;}
+#letters2 {width:45px; float:left; text-align:center; margin-top:8px; color:#06F; text-decoration:none;}
+
+a.prev {float:left; font-size:12px; margin-left:10px; margin-top:4px;}
+a.next {float:right; font-size:12px; margin-right:10px; margin-top:4px;}
+
+a {text-decoration:none;}
+
+#birthdays {width:958px; border:1px solid black; float:right; background:#CCC;}
+#reminders {width:958px; border:1px solid black; float:right; background:#CCC; max-height:320px; overflow:scroll;}
+#payments {width:958px; border:1px solid black; float:right; background:#CCC; max-height:320px; overflow:scroll;}
+#workDone {width:958px; border:1px solid black; float:right; background:#CCC; max-height:320px; overflow:scroll;}
+#targetsSet {width:958px; border:1px solid black; float:right; background:#CCC;}
+#targetsSet2 {width:958px; border:1px solid black; float:right; background:#CCC; margin-top:10px; margin-right:140px;}
+
+#left {width:320px; float:left; position:fixed; box-shadow:#fff 0px 0px 8px;}
+#right {width:960px; float:right;}
+
+#add {width:318px; border:1px solid black; background:#F5D694;}
+
+div#addBirthday {width:308px; background:#F90; border:1px solid black; padding:2px 5px; display:none;}
+div#setReminder {width:308px; background:#F90; border:1px solid black; padding:2px 5px; display:none;}
+div#addPayment {width:308px; background:#F90; border:1px solid black; padding:2px 5px; display:none;}
+div#addWorkDone {width:308px; background:#F90; border:1px solid black; padding:2px 5px; display:none;}
+div#addHoursTarget {width:308px; background:#F90; border:1px solid black; padding:2px 5px; display:none;}
+div#addWageTarget {width:308px; background:#F90; border:1px solid black; padding:2px 5px; display:none;}
+
+h2 {font-size:18px; text-align:center; margin:0px; text-decoration:underline;}
+h3 {text-decoration:underline; margin:2px 5px;}
+
+label {font-weight:bold;}
+#wait {display:none;}
+
+#birth {padding-left:100px; height:26px; font-weight:bold; padding-top:2px; padding-bottom:1px;}
+
+#editBirthday {width:720px; margin:10px auto; background:#FFF; border:1px solid black; display:none;}
+#editPayment {width:720px; margin:10px auto; background:#FFF; border:1px solid black; display:none;}
+#editReminder {width:720px; margin:10px auto; background:#FFF; border:1px solid black; display:none;}
+#editWorkDone {width:940px; margin:10px auto; background:#FFF; border:1px solid black; display:none;}
+#editHoursTarget {width:720px; margin:10px auto; background:#FFF; border:1px solid black; display:none;}
+#editWageTarget {width:720px; margin:10px auto; background:#FFF; border:1px solid black; display:none;}
+
+#categories {width:300px; float:left; margin:10px 20px 10px 20px; background:#FFF; border:1px solid black;}
+#paymentsummary {float:left; margin:10px 20px 10px 20px; background:#FFF; border:1px solid black;}
+#paymentsummary2 {float:left; margin:10px 20px 10px 52px; background:#FFF; border:1px solid black;}
+#companysummary {float:left; margin:10px 20px 10px 15px; background:#FFF; border:1px solid black;}
+#companysummary2 {float:left; margin:10px 20px 10px 20px; background:#FFF; border:1px solid black;}
+
+#error {width:308px; background:#F00; border:1px solid black; padding:2px 5px; display:none;}
+
+#companies {width:300px; float:left; margin:10px 20px 10px 20px; background:#FFF; border:1px solid black;}
+
+#black {background:black; width:100%; height:100%; position:absolute; left:0px; top:0px; opacity:0.8; display:none;}
+#bold {width:92%; height:85%; overflow:scroll; background:#DDD; border:1px solid black; position:absolute; top:50px; left:64px; display:none;}
+
+#boldHead {width:100%; border-bottom:1px solid black; padding:3px 20px; background:#999; font-size:18px; font-family:"Courier New", Courier, monospace; text-emphasis:center; color:#06C; position:absolute; top:25px; left:65px; width:89%; display:none;}
+
+#searchBox {width:308px; border:1px solid black; background:#F5D694; padding:2px 5px; display:none;}
+#searchInfo {width:308px; border:1px solid black; background:#FBF3BD; padding:2px 5px; font-size:13px; font-weight:bold;}
+#searchBox2 {width:308px; border:1px solid black; background:#FBF3BD; padding:2px 5px;}
+
+#stats {width:858px; border:1px solid black; float:right; background:#CCC; padding:10px 50px;}
+.count {background:white; width:40%; float:left;}
+.total {background:white; width:55%; float:right; text-align:center; margin-bottom:20px;}
